@@ -1,0 +1,22 @@
+{
+    "read_files": "[ reads/processed/A_12_1.qcd.fq.gz, reads/processed/A_12_2.qcd.fq.gz]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 22804369,
+    "num_assigned_fragments": 22804369,
+    "num_frags_with_concordant_consistent_mappings": 20605892,
+    "num_frags_with_inconsistent_or_orphan_mappings": 2590316,
+    "strand_mapping_bias": 0.521618476890008,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 10748414,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 9857478,
+    "SF": 1292561,
+    "SR": 1297755,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

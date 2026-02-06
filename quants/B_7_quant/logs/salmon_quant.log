@@ -1,0 +1,50 @@
+[2024-11-26 13:40:36.876] [jointLog] [info] setting maxHashResizeThreads to 16
+[2024-11-26 13:40:36.876] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2024-11-26 13:40:36.876] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2024-11-26 13:40:36.876] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2024-11-26 13:40:36.876] [jointLog] [info] parsing read library format
+[2024-11-26 13:40:36.876] [jointLog] [info] There is 1 library.
+[2024-11-26 13:40:36.876] [jointLog] [info] Loading pufferfish index
+[2024-11-26 13:40:36.876] [jointLog] [info] Loading dense pufferfish index.
+[2024-11-26 13:40:37.483] [jointLog] [info] done
+[2024-11-26 13:40:37.557] [jointLog] [info] Index contained 115,424 targets
+[2024-11-26 13:40:37.583] [jointLog] [info] Number of decoys : 0
+[2024-11-26 13:40:37.897] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2024-11-26 13:41:45.642] [jointLog] [info] Computed 856,378 rich equivalence classes for further processing
+[2024-11-26 13:41:45.642] [jointLog] [info] Counted 18,143,648 total reads in the equivalence classes 
+[2024-11-26 13:41:45.656] [jointLog] [info] Number of mappings discarded because of alignment score : 7,208,124
+[2024-11-26 13:41:45.656] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 1,408,217
+[2024-11-26 13:41:45.656] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2024-11-26 13:41:45.656] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 56,733
+[2024-11-26 13:41:45.656] [jointLog] [info] Mapping rate = 89.8254%
+
+[2024-11-26 13:41:45.656] [jointLog] [info] finished quantifyLibrary()
+[2024-11-26 13:41:45.656] [jointLog] [info] Starting optimizer
+[2024-11-26 13:41:45.763] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2024-11-26 13:41:45.781] [jointLog] [info] iteration = 0 | max rel diff. = 10010.8
+[2024-11-26 13:41:45.643] [fileLog] [info] 
+At end of round 0
+==================
+Observed 20198785 total fragments (20198785 in most recent round)
+
+[2024-11-26 13:41:47.552] [jointLog] [info] iteration = 100 | max rel diff. = 10.2047
+[2024-11-26 13:41:49.322] [jointLog] [info] iteration = 200 | max rel diff. = 13.8192
+[2024-11-26 13:41:51.100] [jointLog] [info] iteration = 300 | max rel diff. = 1.97877
+[2024-11-26 13:41:52.867] [jointLog] [info] iteration = 400 | max rel diff. = 0.580009
+[2024-11-26 13:41:54.635] [jointLog] [info] iteration = 500 | max rel diff. = 0.0465986
+[2024-11-26 13:41:56.403] [jointLog] [info] iteration = 600 | max rel diff. = 6.99195
+[2024-11-26 13:41:58.170] [jointLog] [info] iteration = 700 | max rel diff. = 0.461913
+[2024-11-26 13:41:59.938] [jointLog] [info] iteration = 800 | max rel diff. = 0.109112
+[2024-11-26 13:42:01.710] [jointLog] [info] iteration = 900 | max rel diff. = 0.36334
+[2024-11-26 13:42:03.482] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.0170467
+[2024-11-26 13:42:05.249] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.0713935
+[2024-11-26 13:42:07.015] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0571114
+[2024-11-26 13:42:08.200] [jointLog] [info] iteration = 1,268 | max rel diff. = 0.0027854
+[2024-11-26 13:42:08.206] [jointLog] [info] Finished optimizer
+[2024-11-26 13:42:08.206] [jointLog] [info] writing output 
+
+[2024-11-26 13:42:08.349] [jointLog] [warning] NOTE: Read Lib [[ reads/processed/B_7_1.qcd.fq.gz, reads/processed/B_7_2.qcd.fq.gz]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: quants/B_7_quant/lib_format_counts.json for details
+

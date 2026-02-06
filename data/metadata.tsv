@@ -1,0 +1,29 @@
+sample_id	mouse	genotype	training_status	stim	genotype_x_training_status
+A_1	M1	WT	Untrained	Unstimulated	WT_Untrained
+A_2	M1	WT	Trained	Unstimulated	WT_Trained
+A_3	M1	KO	Untrained	Unstimulated	KO_Untrained
+A_4	M1	KO	Trained	Unstimulated	KO_Trained
+A_5	M2	WT	Untrained	Unstimulated	WT_Untrained
+A_6	M2	WT	Trained	Unstimulated	WT_Trained
+A_7	M2	KO	Untrained	Unstimulated	KO_Untrained
+A_8	M2	KO	Trained	Unstimulated	KO_Trained
+A_9	M3	WT	Untrained	Unstimulated	WT_Untrained
+A_10	M3	WT	Trained	Unstimulated	WT_Trained
+A_11	M3	KO	Untrained	Unstimulated	KO_Untrained
+A_12	M3	KO	Trained	Unstimulated	KO_Trained
+A_13	M4	WT	Untrained	Unstimulated	WT_Untrained
+A_14	M4	WT	Trained	Unstimulated	WT_Trained
+A_15	M4	KO	Untrained	Unstimulated	KO_Untrained
+A_16	M4	KO	Trained	Unstimulated	KO_Trained
+B_1	M1	WT	Untrained	Poly I:C Stimulated	WT_Untrained
+B_2	M1	WT	Trained	Poly I:C Stimulated	WT_Trained
+B_3	M1	KO	Untrained	Poly I:C Stimulated	KO_Untrained
+B_4	M1	KO	Trained	Poly I:C Stimulated	KO_Trained
+B_5	M2	WT	Untrained	Poly I:C Stimulated	WT_Untrained
+B_6	M2	WT	Trained	Poly I:C Stimulated	WT_Trained
+B_7	M2	KO	Untrained	Poly I:C Stimulated	KO_Untrained
+B_8	M2	KO	Trained	Poly I:C Stimulated	KO_Trained
+B_9	M3	WT	Untrained	Poly I:C Stimulated	WT_Untrained
+B_10	M3	WT	Trained	Poly I:C Stimulated	WT_Trained
+B_11	M3	KO	Untrained	Poly I:C Stimulated	KO_Untrained
+B_12	M3	KO	Trained	Poly I:C Stimulated	KO_Trained

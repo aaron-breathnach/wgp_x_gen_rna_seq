@@ -1,0 +1,53 @@
+[2024-11-26 13:29:36.388] [jointLog] [info] setting maxHashResizeThreads to 16
+[2024-11-26 13:29:36.388] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2024-11-26 13:29:36.388] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2024-11-26 13:29:36.388] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2024-11-26 13:29:36.388] [jointLog] [info] parsing read library format
+[2024-11-26 13:29:36.388] [jointLog] [info] There is 1 library.
+[2024-11-26 13:29:36.388] [jointLog] [info] Loading pufferfish index
+[2024-11-26 13:29:36.388] [jointLog] [info] Loading dense pufferfish index.
+[2024-11-26 13:29:36.993] [jointLog] [info] done
+[2024-11-26 13:29:37.067] [jointLog] [info] Index contained 115,424 targets
+[2024-11-26 13:29:37.093] [jointLog] [info] Number of decoys : 0
+[2024-11-26 13:29:37.427] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2024-11-26 13:30:47.284] [jointLog] [info] Computed 269,673 rich equivalence classes for further processing
+[2024-11-26 13:30:47.284] [jointLog] [info] Counted 20,038,215 total reads in the equivalence classes 
+[2024-11-26 13:30:47.299] [jointLog] [info] Number of mappings discarded because of alignment score : 6,839,384
+[2024-11-26 13:30:47.299] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 837,157
+[2024-11-26 13:30:47.299] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2024-11-26 13:30:47.299] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 83,491
+[2024-11-26 13:30:47.299] [jointLog] [info] Mapping rate = 93.4807%
+
+[2024-11-26 13:30:47.299] [jointLog] [info] finished quantifyLibrary()
+[2024-11-26 13:30:47.299] [jointLog] [info] Starting optimizer
+[2024-11-26 13:30:47.356] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2024-11-26 13:30:47.363] [jointLog] [info] iteration = 0 | max rel diff. = 10380.6
+[2024-11-26 13:30:47.284] [fileLog] [info] 
+At end of round 0
+==================
+Observed 21435675 total fragments (21435675 in most recent round)
+
+[2024-11-26 13:30:48.021] [jointLog] [info] iteration = 100 | max rel diff. = 18.4321
+[2024-11-26 13:30:48.676] [jointLog] [info] iteration = 200 | max rel diff. = 4.50031
+[2024-11-26 13:30:49.332] [jointLog] [info] iteration = 300 | max rel diff. = 5.85455
+[2024-11-26 13:30:49.987] [jointLog] [info] iteration = 400 | max rel diff. = 1.94742
+[2024-11-26 13:30:50.646] [jointLog] [info] iteration = 500 | max rel diff. = 0.18216
+[2024-11-26 13:30:51.301] [jointLog] [info] iteration = 600 | max rel diff. = 0.156433
+[2024-11-26 13:30:51.957] [jointLog] [info] iteration = 700 | max rel diff. = 0.230275
+[2024-11-26 13:30:52.612] [jointLog] [info] iteration = 800 | max rel diff. = 0.0891935
+[2024-11-26 13:30:53.269] [jointLog] [info] iteration = 900 | max rel diff. = 0.0253667
+[2024-11-26 13:30:53.925] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.0209583
+[2024-11-26 13:30:54.580] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.102373
+[2024-11-26 13:30:55.236] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0268295
+[2024-11-26 13:30:55.892] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0370559
+[2024-11-26 13:30:56.548] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.0343598
+[2024-11-26 13:30:57.203] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.0297084
+[2024-11-26 13:30:57.590] [jointLog] [info] iteration = 1,560 | max rel diff. = 0.00669437
+[2024-11-26 13:30:57.596] [jointLog] [info] Finished optimizer
+[2024-11-26 13:30:57.596] [jointLog] [info] writing output 
+
+[2024-11-26 13:30:57.739] [jointLog] [warning] NOTE: Read Lib [[ reads/processed/B_12_1.qcd.fq.gz, reads/processed/B_12_2.qcd.fq.gz]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: quants/B_12_quant/lib_format_counts.json for details
+

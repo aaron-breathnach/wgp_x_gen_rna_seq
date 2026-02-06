@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.10.3",
+    "index": "salmon/mouse_index",
+    "libType": "A",
+    "mates1": "reads/processed/A_13_1.qcd.fq.gz",
+    "mates2": "reads/processed/A_13_2.qcd.fq.gz",
+    "threads": "16",
+    "validateMappings": [],
+    "output": "quants/A_13_quant",
+    "auxDir": "aux_info"
+}
