@@ -226,6 +226,10 @@ wrapper <- function(stimulation) {
   
 }
 
-wrapper("Unstimulated")
-wrapper("Poly I:C Stimulated")
-write_sig_res()
+run_limma_voom <- function() {
+  
+  wrapper("Unstimulated")
+  wrapper("Poly I:C Stimulated")
+  write_sig_res()
+  
+}
