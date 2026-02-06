@@ -1,7 +1,5 @@
 library(tidyverse)
 
-setwd("~/Desktop/cian_rna_seq/")
-
 main <- function(path2metadata, path2counts, out_dir = "plots") {
   
   dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
